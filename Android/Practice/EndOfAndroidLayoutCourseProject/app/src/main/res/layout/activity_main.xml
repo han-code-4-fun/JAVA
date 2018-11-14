@@ -1,0 +1,69 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:scaleType="centerCrop"
+        android:src="@drawable/cat"
+        />
+
+
+    <TextView android:text="The cat-ignoring-you Cafe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding = "5dp"
+        android:layout_centerHorizontal="true"
+        android:textColor="#6A1B9A"
+        android:fontFamily = "sans-serif-light"
+        android:textAppearance = "?android:textAppearanceLarge"
+
+        />
+    <TextView
+        android:id="@+id/whyId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:paddingTop="100dp"
+        android:text="Why us:"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textColor = "#00B8D4"
+        android:layout_centerVertical="true"
+        android:fontFamily = "sans-serif-light"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/whyId"
+        android:id="@+id/descripID"
+        android:fontFamily = "sans-serif-light"
+        android:textColor="#00B8D4"
+        android:text="Come for a Cafe and enjoy the fact that cats think they are your god."
+        android:textAppearance = "?android:textAppearanceMedium"
+        android:layout_marginLeft="10dp"
+        />
+    <TextView
+        android:layout_below="@id/descripID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Phone number: 123-456-789"
+        android:fontFamily = "sans-serif-light"
+        android:textColor="#00B8D4"
+        android:textAppearance = "?android:textAppearanceMedium"
+        android:layout_marginLeft="10dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Powered by Android"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:padding="5dp"
+        />
+
+</RelativeLayout>
