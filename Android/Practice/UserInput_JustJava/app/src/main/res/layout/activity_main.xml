@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:paddingLeft="12dp"
+
+    >
+
+    <TextView
+        android:text="quantity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAllCaps="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:paddingTop="16dp"
+        android:paddingBottom="16dp"
+        />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        >
+        <Button
+            android:text = "+"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:id = "@+id/incrementButton"
+            android:onClick = "increment"
+            android:layout_marginRight="10dp"
+            />
+        <TextView
+            android:id="@+id/quantity_text_view"
+            android:text = "0"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+
+            />
+        <Button
+            android:text = "-"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:id = "@+id/decrementButton"
+            android:onClick = "decrement"
+            />
+
+    </LinearLayout>
+
+    <TextView
+        android:text = "price"
+        android:textAllCaps = "true"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_marginTop = "16dp"
+
+        />
+    <TextView
+        android:text="$0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop = "16dp"
+        android:id ="@+id/price_text_view"
+        />
+    <Button
+        android:text="order"
+        android:layout_width = "wrap_content"
+        android:layout_height = "wrap_content"
+        android:onClick = "submitOrder"
+        android:layout_marginTop="16dp"
+        />
+
+</LinearLayout>
