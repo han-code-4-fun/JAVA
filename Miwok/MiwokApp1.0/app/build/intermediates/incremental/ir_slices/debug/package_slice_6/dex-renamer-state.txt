@@ -1,0 +1,4 @@
+#Mon Nov 26 21:51:45 PST 2018
+base.0=E\:\\GitHub\\JAVA\\Android\\Practice\\MiwokApp\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\6
+path.0=classes.dex
+renamed.0=classes.dex
