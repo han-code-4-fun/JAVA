@@ -1,4 +1,4 @@
-# incorect using of git merge has ruined this project
+# Incorect using of git merge has ruined this project
 
 ## Just a practice on user interface
 
