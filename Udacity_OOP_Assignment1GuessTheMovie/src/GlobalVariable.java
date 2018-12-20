@@ -8,13 +8,17 @@ public class GlobalVariable {
     Movies movies;
     String selectedMovie ;
     int life;
-    char[] moviesToCharArray;
-    char[] rightGuessing;
-    char[] wrongGuessing ;
+    char[] moviesInCharArray;
+
+    //save users right guess char into an array
+    char[] rightGuessCharArray;
+
+    //save users wrong guess char into an array
+    char[] wrongGuessCharArray;
     Scanner myInput ;
     char inputLetter;
-    boolean guessResult;
-    boolean match;
+    boolean guessResultThisTime;
+    boolean win;
 
     public GlobalVariable(Game myGame){
         movies = new Movies();
@@ -24,12 +28,16 @@ public class GlobalVariable {
 
 
         life = 10;
-        moviesToCharArray = selectedMovie.toCharArray();
-        rightGuessing = new char[moviesToCharArray.length];
-        wrongGuessing = new char[life];
+        moviesInCharArray = selectedMovie.toCharArray();
+
+        //set length of both arrays
+        rightGuessCharArray = new char[moviesInCharArray.length];
+        wrongGuessCharArray = new char[life];
+
         myInput = new Scanner(in);
-        guessResult = false;
-        match = false;
+
+        guessResultThisTime = false;
+        win = false;
 
     }
 
