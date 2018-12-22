@@ -4,7 +4,7 @@
 
 ![Purchase book](https://github.com/miaonagemide/JAVA/blob/master/DouglasCollege_Java_Assignment/GUI_class_assignment/GUI1.jpg)
 
-#### Manage book GUI
+#### Manage book GUI, to open book manage GUI, enter password 5555
 ![Purchase book](https://github.com/miaonagemide/JAVA/blob/master/DouglasCollege_Java_Assignment/GUI_class_assignment/GUI2.jpg)
 
 #### For detailed assignment description, please [click](https://github.com/miaonagemide/JAVA/blob/master/DouglasCollege_Java_Assignment/GUI_class_assignment/CSIS1275Assign4F2018another.pdf)
